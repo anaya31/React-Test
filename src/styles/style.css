@@ -1,0 +1,90 @@
+html, body, #root {
+    height: 100%; /* Ensure the container takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+   
+}
+
+.app{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; */
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box{
+    /* border: 1px solid black; */
+    padding: 40px;
+   
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Twitter{
+    text-align: center;
+    font-size: 28px !important;
+    font-weight: 600 !important;
+    padding-bottom: 20px;
+}
+
+.sort{
+    display: flex;
+}
+
+ .filter-buttons{
+   display: flex;
+   gap: 18px;
+   flex-direction: row;
+  margin-bottom: 10px;
+} 
+
+.rs-picker-daterange-menu {
+    z-index: 100; /* added a large random number, you can choose it more carefully based on your use-case.*/
+    width: 450px;
+  }
+
+  .modal-date-picker .rs-picker-toggle.rs-btn {
+    z-index: 0;
+  }
+
+  .filters{
+    display: flex;
+    gap:48px;
+    margin-bottom: 20px;
+  }
+
+.sort-by{
+    padding: 8px 8px 0 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* .DateRange{
+    margin-bottom: 40px;
+} */
+
+.rs-picker-popup .rs-picker-daterange-panel-show-one-calendar .rs-picker-toolbar-ranges{
+  display: none;
+}
+
+.follower-item{
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 600;
+  border: 1px solid black;
+  justify-content: center;
+  /* text-align: center; */
+  padding:0 0 10px 10px;
+}
+
+.remove-button{
+  max-width: 100px;
+  margin-top: 10px !important;
+  /* align-self: center; */
+}
